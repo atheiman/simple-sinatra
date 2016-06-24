@@ -19,7 +19,8 @@ PLATFORMS
 
 DEPENDENCIES
   passenger (~> 5.0.25)
+  rake
   sinatra
 
 BUNDLED WITH
-   1.11.2
+   1.12.4
