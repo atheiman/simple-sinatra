@@ -4,6 +4,8 @@ A dead simple Sinatra app. I use this app for testing [simple-passenger-cookbook
 
 # Running the App
 
+## Local Dev
+
 1. Clone the app
 
    ```shell
@@ -22,6 +24,15 @@ A dead simple Sinatra app. I use this app for testing [simple-passenger-cookbook
    ```shell
    bundle exec passenger start
    ```
+
+## With Docker
+
+```shell
+docker build -t simple-sinatra:some-tag .
+docker run --rm -p 3000:3000 simple-sinatra:some-tag
+```
+
+## Production
 
 In production, steps two and three look a little different.
 
